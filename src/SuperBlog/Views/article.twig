@@ -1,0 +1,21 @@
+{% extends 'layout.twig' %}
+
+{% block content %}
+
+    <h1>{{ article.title }}</h1>
+
+    <blockquote class="flow-text">{{ article.content }}</blockquote>
+
+    <p><a href="/" class="btn">Back to the home page</a></p>
+
+    <hr/>
+
+    <p>
+        To read this article in the CLI, run the following command:
+    </p>
+
+    <div class="card-panel grey darken-3" style="color: white">
+        <pre><code>php console.php article 1</code></pre>
+    </div>
+
+{% endblock %}

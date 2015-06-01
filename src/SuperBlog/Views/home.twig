@@ -1,0 +1,37 @@
+{% extends 'layout.twig' %}
+
+{% block content %}
+
+    <h1>Welcome to the blog!</h1>
+
+    <p>Have a look at our articles:</p>
+
+    <ul class="collection">
+
+        {% for article in articles %}
+            <li class="collection-item avatar">
+
+                <i class="mdi-editor-insert-comment circle"></i>
+
+                <span class="title">{{ article.title }}</span>
+
+                <p>{{ article.content }}</p>
+
+                <p><a href="/article/{{ article.id }}">Read more</a></p>
+
+            </li>
+        {% endfor %}
+
+    </ul>
+
+    <hr/>
+
+    <p>
+        To view the articles list in the CLI, run the following command:
+    </p>
+
+    <div class="card-panel grey darken-3" style="color: white">
+        <pre><code>php console.php articles</code></pre>
+    </div>
+
+{% endblock %}

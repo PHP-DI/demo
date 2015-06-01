@@ -1,0 +1,17 @@
+{
+    "name": "php-di/demo",
+    "license": "MIT",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "SuperBlog\\": "src/SuperBlog/"
+        }
+    },
+    "require": {
+        "php": ">=5.6",
+        "mnapoli/php-di": "5.0.x-dev@dev",
+        "nikic/fast-route": "~0.5.0",
+        "twig/twig": "^1.18",
+        "mnapoli/silly": "^1.1"
+    }
+}
