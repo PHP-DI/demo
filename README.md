@@ -6,6 +6,12 @@ This repository demonstrates how to write a simple application using PHP-DI.
 
 ![](screenshot.png)
 
+## Disclaimer
+
+Watch out, this project is meant to show how to build an application from scratch with PHP-DI in the simplest way possible. You are of course not encouraged to do that (many good frameworks exist already), this is only meant to learn. Be also aware that this code should not go to production.
+
+Improvements and pull requests are welcome.
+
 ## Run
 
 To run this demo, you need to clone it and install dependencies:
@@ -32,8 +38,8 @@ php console.php
 
 The following commands are available:
 
-- `articles`: lists the blog articles
-- `article [id]`: displays a blog article by its ID
+- `php console.php articles`: lists the blog articles
+- `php console.php article [id]`: displays a blog article by its ID
 
 ## Architecture
 
