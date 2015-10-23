@@ -1,6 +1,6 @@
 # PHP-DI application demo
 
-This repository demonstrates how to write a simple application using PHP-DI.
+This repository demonstrates how to write a simple application using PHP-DI without any framework.
 
 ## Screenshot
 
@@ -8,7 +8,7 @@ This repository demonstrates how to write a simple application using PHP-DI.
 
 ## Disclaimer
 
-Watch out, this project is meant to show how to build an application from scratch with PHP-DI in the simplest way possible. You are of course not encouraged to do that (many good frameworks exist already), this is only meant to learn. Be also aware that this code should not go to production.
+Watch out, this project is meant to show how to build an application from scratch with PHP-DI in the simplest way possible. Be aware that this code is only meant for learning purposes and should probably not go to production as-is.
 
 Improvements and pull requests are welcome.
 
