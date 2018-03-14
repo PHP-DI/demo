@@ -8,10 +8,10 @@
         }
     },
     "require": {
-        "php": ">=5.6",
-        "php-di/php-di": "^5.4",
+        "php": ">=7.0",
+        "php-di/php-di": "^6.0",
         "nikic/fast-route": "~0.5.0",
         "twig/twig": "^1.18",
-        "mnapoli/silly": "^1.1"
+        "mnapoli/silly": "^1.7"
     }
 }

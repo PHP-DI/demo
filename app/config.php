@@ -1,12 +1,12 @@
 <?php
 
-use function DI\object;
+use function DI\create;
 use SuperBlog\Model\ArticleRepository;
 use SuperBlog\Persistence\InMemoryArticleRepository;
 
 return [
     // Bind an interface to an implementation
-    ArticleRepository::class => object(InMemoryArticleRepository::class),
+    ArticleRepository::class => create(InMemoryArticleRepository::class),
 
     // Configure Twig
     Twig_Environment::class => function () {
