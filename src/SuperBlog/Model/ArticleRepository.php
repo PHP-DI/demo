@@ -13,11 +13,12 @@ interface ArticleRepository
     /**
      * @return Article[]
      */
-    public function getArticles();
+    public function getArticles(): array;
 
     /**
-     * @param string $id
+     * @param int $id
+     *
      * @return Article
      */
-    public function getArticle($id);
+    public function getArticle(int $id): Article;
 }

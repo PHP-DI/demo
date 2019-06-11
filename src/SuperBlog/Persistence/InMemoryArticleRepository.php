@@ -17,12 +17,20 @@ class InMemoryArticleRepository implements ArticleRepository
         ];
     }
 
-    public function getArticles()
+    /**
+     * @return Article[]
+     */
+    public function getArticles(): array
     {
         return $this->articles;
     }
 
-    public function getArticle($id)
+    /**
+     * @param int $id
+     *
+     * @return Article
+     */
+    public function getArticle(int $id): Article
     {
         return $this->articles[$id];
     }

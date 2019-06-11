@@ -3,6 +3,9 @@
 namespace SuperBlog\Controller;
 
 use SuperBlog\Model\ArticleRepository;
+use Twig\Error\LoaderError;
+use Twig\Error\RuntimeError;
+use Twig\Error\SyntaxError;
 use Twig_Environment;
 
 class HomeController
@@ -24,11 +27,11 @@ class HomeController
     }
 
     /**
-     * Example of an invokable class, i.e. a class that has an __invoke() method.
-     *
-     * @see http://php.net/manual/en/language.oop5.magic.php#object.invoke
+     * @throws LoaderError
+     * @throws RuntimeError
+     * @throws SyntaxError
      */
-    public function __invoke()
+    public function __invoke(): void
     {
         echo $this->twig->render('home.twig', [
             'articles' => $this->repository->getArticles(),

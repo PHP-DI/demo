@@ -1,12 +1,14 @@
 <?php
 
+use SuperBlog\Controller\ArticleController;
+use SuperBlog\Controller\HomeController;
 use FastRoute\RouteCollector;
 
 $container = require __DIR__ . '/../app/bootstrap.php';
 
-$dispatcher = FastRoute\simpleDispatcher(function (RouteCollector $r) {
-    $r->addRoute('GET', '/', 'SuperBlog\Controller\HomeController');
-    $r->addRoute('GET', '/article/{id}', ['SuperBlog\Controller\ArticleController', 'show']);
+$dispatcher = FastRoute\simpleDispatcher(static function (RouteCollector $r) {
+    $r->addRoute('GET', '/', HomeController::class);
+    $r->addRoute('GET', '/article/{id}', [ArticleController::class, 'show']);
 });
 
 $route = $dispatcher->dispatch($_SERVER['REQUEST_METHOD'], $_SERVER['REQUEST_URI']);
