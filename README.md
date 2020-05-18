@@ -35,12 +35,12 @@ You can also run the CLI application:
 ```
 php console.php
 ```
-
+#
 The following commands are available:
 
 - `php console.php articles`: lists the blog articles
 - `php console.php article [id]`: displays a blog article by its ID
-
+ 
 ## Architecture
 
 The container is created in [app/bootstrap.php](app/bootstrap.php). The configuration file for the container is [app/config.php](app/config.php).
