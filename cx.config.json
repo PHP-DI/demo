@@ -1,6 +1,6 @@
 {
-  "cxflow": {
-    "jira": {
+  "cxFlow": {
+    "JIRA": {
       "project": "CPT"
     }
   }
