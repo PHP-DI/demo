@@ -1,5 +1,7 @@
 {
-  "jira": {
-    "project": "CPT"
+  "cxflow": {
+    "jira": {
+      "project": "CPT"
+    }
   }
 }
