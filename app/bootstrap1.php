@@ -1,6 +1,6 @@
 <?php
 /**
- * The bootstrap file creates and returns the container.
+ *  The bootstrap file creates and returns the container.
  */
 
 use DI\ContainerBuilder;
