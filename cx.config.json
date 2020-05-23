@@ -1,0 +1,12 @@
+{
+  "sast": {
+    "preset": "OWASP Top 10 - 2017",
+  },
+  "additionalProperties" : {
+    "cxFlow": {
+      "jira": {
+        "project": "CPT"
+      }
+    }
+  }
+}
