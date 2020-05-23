@@ -1,6 +1,6 @@
 {
   "sast": {
-    "preset": "OWASP Top 10 - 2017",
+    "preset": "OWASP Top 10 - 2017"
   },
   "additionalProperties" : {
     "cxFlow": {
