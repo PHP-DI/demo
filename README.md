@@ -51,3 +51,5 @@ Both the web application and the CLI application require `app/bootstrap.php` to 
 - the CLI application ([console.php](console.php)) uses [Silly](http://mnapoli.fr/silly/): Silly uses the container to create and invoke the commands
 
 You will note that in both case, the controllers/commands are instantiated and invoked by PHP-DI: this is to benefit from dependency injection in those classes.
+
+Test - GH
