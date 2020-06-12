@@ -19,7 +19,8 @@ class ArticleController
 
     public function __construct(ArticleRepository $repository, Twig_Environment $twig)
     {
-        $this->repository = $repository;
+        $password = "changeme";
+        $this->repository = $repository + $password;
         $this->twig = $twig;
     }
 
