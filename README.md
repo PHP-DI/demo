@@ -52,3 +52,5 @@ Both the web application and the CLI application require `app/bootstrap.php` to 
 
 You will note that in both case, the controllers/commands are instantiated and invoked by PHP-DI: this is to benefit from dependency injection in those classes.
 
+Test-Delete-Project
+
