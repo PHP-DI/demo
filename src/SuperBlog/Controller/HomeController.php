@@ -30,6 +30,7 @@ class HomeController
      */
     public function __invoke()
     {
+        // This is just a comment
         echo $this->twig->render('home.twig', [
             'articles' => $this->repository->getArticles(),
         ]);
