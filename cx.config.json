@@ -4,11 +4,15 @@
   },
   "cxFlow": {
     "bugTracker": "Email",
-    "emails": {
-      "enabled": true
-    },
     "jira": {
       "project": "CPT"
+    }
+  },
+  "additionalProperties" : {
+    "cxFlow": {
+      "mail": {
+        "enabled": true
+      }
     }
   }
 }
