@@ -4,7 +4,7 @@
   },
   "cxFlow": {
     "bugTracker": "Email",
-    "mail": {
+    "emails": {
       "enabled": true
     },
     "jira": {
