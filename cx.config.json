@@ -2,12 +2,10 @@
   "sast": {
     "preset": "OWASP Top 10 - 2017"
   },
-  "additionalProperties" : {
-    "cxFlow": {
-      "bug-tracker": "Json",
-      "jira": {
-        "project": "CPT"
-      }
+  "cxFlow": {
+    "bugTracker": "Json",
+    "jira": {
+      "project": "CPT"
     }
   }
 }
