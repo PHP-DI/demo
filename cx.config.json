@@ -9,10 +9,8 @@
     }
   },
   "additionalProperties" : {
-    "cxFlow": {
-      "mail": {
-        "enabled": true
-      }
+    "mail": {
+      "enabled": true
     }
   }
 }
