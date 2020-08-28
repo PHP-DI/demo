@@ -7,10 +7,5 @@
     "jira": {
       "project": "CPT"
     }
-  },
-  "additionalProperties" : {
-    "mail": {
-      "enabled": true
-    }
   }
 }
