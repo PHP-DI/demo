@@ -4,6 +4,7 @@
   },
   "additionalProperties" : {
     "cxFlow": {
+      "bug-tracker": "Json"
       "jira": {
         "project": "CPT"
       }
