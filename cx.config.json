@@ -3,7 +3,10 @@
     "preset": "OWASP Top 10 - 2017"
   },
   "cxFlow": {
-    "bugTracker": "Json",
+    "bugTracker": "Email",
+    "mail": {
+      "enabled": true
+    },
     "jira": {
       "project": "CPT"
     }
