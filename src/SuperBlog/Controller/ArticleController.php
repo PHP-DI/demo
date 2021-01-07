@@ -3,7 +3,7 @@
 namespace SuperBlog\Controller;
 
 use SuperBlog\Model\ArticleRepository;
-use Twig_Environment;
+use Twig\Environment;
 
 class ArticleController
 {
@@ -17,7 +17,7 @@ class ArticleController
      */
     private $twig;
 
-    public function __construct(ArticleRepository $repository, Twig_Environment $twig)
+    public function __construct(ArticleRepository $repository, Environment $twig)
     {
         $this->repository = $repository;
         $this->twig = $twig;

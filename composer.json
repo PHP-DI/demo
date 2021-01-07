@@ -2,6 +2,9 @@
     "name": "php-di/demo",
     "license": "MIT",
     "type": "project",
+    "scripts": {
+        "serve": "@php -S localhost:8000 -t web/"
+    },
     "autoload": {
         "psr-4": {
             "SuperBlog\\": "src/SuperBlog/"
@@ -11,7 +14,7 @@
         "php": ">=7.0",
         "php-di/php-di": "^6.0",
         "nikic/fast-route": "~0.5.0",
-        "twig/twig": "^1.18",
-        "mnapoli/silly": "^1.7"
+        "mnapoli/silly": "^1.7",
+        "twig/twig": "^3.2"
     }
 }
