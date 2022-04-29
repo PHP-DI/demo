@@ -12,7 +12,7 @@ node {
 
         echo "projectKey: ${projectKey}"
 
-          sh "${scannerHome}/bin/sonar-scanner"
+          sh "${scannerHome}/bin/sonar-scanner -D sonar.projectKey=${projectKey}"
         }
   }
 }
