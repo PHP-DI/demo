@@ -13,9 +13,13 @@ node {
         echo "projectKey: ${projectKey}"
 
           sh "${scannerHome}/bin/sonar-scanner -D sonar.projectKey=${projectKey}"
+           stash includes: ".sonar/report-task.txt", name: 'sonar'
+
         }
   }
 }
+  //stage('quality gate') {
+    
 
   
 //Sonar Scanner
