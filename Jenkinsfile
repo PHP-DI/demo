@@ -5,12 +5,12 @@ node {
   }
   stage('sonarqube analysis') {
     def scannerHome = tool 'Sonar Scanner';
-    withSonarQubeEnv('my sonarqube') { 
-      sh "${scannerHome}/bin/sonar-scanner"
-      stash includes: "report-task.txt"
+    withSonarQubeEnv('my sonarqube') {
+    sh "${scannerHome}/bin/sonar-scanner
     }
   }
 }
   
   
-
+//Sonar Scanner
+//my sonarqube
